@@ -1,5 +1,5 @@
 # Entity Clustering Application
-The 'entity_clustering' application, is a Java application that perform entity clustering from RDF datasets, like the BTC dataset. The clustering is performed through two main clustering techniques: 1) X-Means[1] and 2) Spectral Clustering[2]. 
+The 'entity_clustering' application, is a Java application that perform entity clustering from RDF datasets, like the BTC dataset. The clustering is performed through two main clustering techniques: 1) X-Means[<a href='http://dl.acm.org/citation.cfm?id=657808'>1</a>] and 2) Spectral Clustering[<a href='http://link.springer.com/article/10.1007%2Fs11222-007-9033-z'>2</a>]. 
 Considering the scale of the dataset we first bucket the entities through the LSH (Locality-Sensitive Hashing algorithm) such that we have less pairwise comparisons during the clustering process.
 
 The main classess in this Java application are: EntityClustering and LSHClustering. 
