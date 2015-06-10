@@ -129,4 +129,4 @@ Required parameters and Values:
 ```java -cp entity_clustering.jar:libs/* LSHClustering -out_dir VAL1 -data_file VAL2 -sample VAL3```
 ##Compiling
 
-Please download the <a href=''>utils.jar</a> library and install into your own local maven repository. It contains I/O methods that are used throughout the project.
+Please download the <a href='http://l3s.de/~fetahu/tools/utils-1.0.jar'>utils.jar</a> library and install into your own local maven repository. It contains I/O methods that are used throughout the project.
